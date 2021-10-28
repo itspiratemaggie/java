@@ -55,7 +55,6 @@ purplecolor.addEventListener("click", () => {
   text.innerText = texthtml[5];
 });
 
-// bij keydown de kleuren aanpassen
 document.addEventListener("keydown", (e) => {
   if (e.keyCode === 49) {
     document.body.style.backgroundColor = "rgb(194, 194, 194)";
